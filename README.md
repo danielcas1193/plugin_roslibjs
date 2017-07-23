@@ -1,5 +1,6 @@
 # OpenROV Cockpit ROS Plugin
-This is a copy of https://github.com/laughlinbarker/plugin-roslibjs.git
+This is a copy of https://github.com/laughlinbarker/plugin-roslibjs.git.
+
 This repository contains the OpenROV Cockpit plugin enabling communication with ROS.
 Several packages need to be installed on the Beagle Bone Black (BBB) for the plugin to function, so your ROV will need internet access. There are multiple ways to do this, but the most surefire method used for this guide was the connect the BBB directly to a LAN that will provide a DHCP address, plugging the BBB into your computer using the supplied USB cable, and disabling the OpenROV proxy server. The USB port (should) show up on your computer as a USB network interface. Configure it with IP `192.168.7.1` and netmask `255.255.255.252`.
 
